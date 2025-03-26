@@ -1,0 +1,53 @@
+/* Reseta as margens e o padding padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://img.freepik.com/vetores-premium/conjunto-de-costura-vintage-em-aquarela_158232-85.jpg);
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #fff;
+    border-bottom: 2px solid #ccc;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Diminuindo a distância entre a logo e os links */
+.logo img {
+    width: 160px;
+    height: auto;
+    margin-right: 10px; /* Diminuir o valor para deixar mais próximo dos links */
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white; /* Cor do texto branca */
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #007bff; /* Borda azul visível o tempo todo */
+    background-color: #007bff; /* Fundo azul o tempo todo */
+}

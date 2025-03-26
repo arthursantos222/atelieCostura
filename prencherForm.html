@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" href="../css/prencherForm.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Formulário de Contato</h2>
+
+        <form id="contactForm">
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name" required placeholder="Digite seu nome">
+
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" required placeholder="Digite seu e-mail">
+
+            <label for="message">Mensagem:</label>
+            <textarea name="message" id="message" rows="5" placeholder="Digite sua mensagem" required></textarea>
+
+            <button type="button" onclick="submitForm()">Enviar</button>
+        </form>
+    </div>
+
+
+
+</body>
+</html>
